@@ -1,0 +1,35 @@
+{
+  "name": "javascript example with babel webpack eslint and jest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "watch-test": "nodemon --ignore lib --exec yarn test",
+    "lintFix": "eslint src --fix",
+    "lint": "eslint src",
+    "test": "jest",
+    "testCoverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-eslint": "^7.2.1",
+    "babel-jest": "^19.0.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.2.2",
+    "babel-preset-es2015": "^6.24.0",
+    "css-loader": "^0.27.3",
+    "eslint": "^3.18.0",
+    "eslint-plugin-compat": "^1.0.2",
+    "jest": "^19.0.2",
+    "nodemon": "^1.11.0",
+    "style-loader": "^0.16.0",
+    "webpack": "^2.3.2"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-sass-loader": "^1.0.10",
+    "file-loader": "^0.10.1",
+    "jquery": "^3.2.1"
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": false
+        }
+    },
+    "plugins": [
+        "compat"
+    ],
+    "rules": {
+        "semi": [2, "never"],
+        "no-unexpected-multiline": 2,
+        "compat/compat": 2
+    },
+    "env": {
+        "browser": true,
+        "jest": true
+    }
+}
