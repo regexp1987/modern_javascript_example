@@ -3,20 +3,28 @@ A simple javascript example with yarn, babel,webpack, jest,eslint
 
 Usefull yarn scripts
 
-yarn build
+**yarn build**
+
 Build the project using webpack
 
-yarn test
+**yarn test**
+
 run jest test (only .test.js files)
 
-yarn testCoverage
+**yarn testCoverage**
+
 create coverage from tests
 
-yarn lint 
+**yarn lint**
+
 run eslint on files
 
-yarn lintFix 
+**yarn lintFix**
+
 fix linting on js files with eslint
 
-yarn watch-test 
+**yarn watch-test**
+
 run yarn test in nodemon
+
+You can always check the result in a browser by opening the index.html file.
